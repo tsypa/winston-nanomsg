@@ -38,7 +38,7 @@ The Nanomsg transport takes the following options.
 
 ## Examples
 
-###Client 
+### Client 
 ```
 'use strict';
 
