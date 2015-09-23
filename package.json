@@ -1,6 +1,6 @@
 {
   "name": "winston-nanomsg",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A Nanomsg transport for Winston",
   "main": "index.js",
   "scripts": {
