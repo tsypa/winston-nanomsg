@@ -1,4 +1,4 @@
-# winston
+# winston-nanomsg
 
 A nanomsg transport for [winston][0].
 
