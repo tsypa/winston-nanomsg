@@ -19,9 +19,9 @@ let Nanomsg = winston.transports.Nanomsg =  function(options) {
   if (!(this.transport === 'inproc'
 	|| this.transport === 'ipc'
 	|| this.transport === 'tcp'
-	// tcpmux and ws is experimental features, we are waiting for notice
+	|| this.transport === 'ws'
+	// tcpmux is experimental feature, we are waiting for notice
 	// || options.transport === 'tcpmux'
-	// || options.transport === 'ws'
        )) {
     throw new Error('Invalid transport option: ' + this.transport);
   }
